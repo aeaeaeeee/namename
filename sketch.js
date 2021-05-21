@@ -22,7 +22,7 @@ function setup() {
 	groundObject=new ground(width/2,670,width,20);
 	dustbinObj=new dustbin(1200,650);
 	paperobj = new paper(300, 650, 50, 50);
-
+	paperobj=loadImage("paper.png");
 	Engine.run(engine);
   
 }
